@@ -40,7 +40,7 @@ public class Main {
         Parrot parrot = new Parrot();
         parrot.setName("Coco");
         parrot.setBreed("Seneagal");
-        parrot.setAge("3 years");
+        parrot.setAge(3);
         parrot.setColor("Grey");
         System.out.println("4) Name of Parrot: " + parrot.getName() + ","+ " "+"Breed of Parrot: " + parrot.getBreed()
                 + ","+" " + "Age of Parrot: " + parrot.getAge() +"," + " "+ "Color of Parrot: " + parrot.getColor());

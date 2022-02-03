@@ -4,7 +4,7 @@ public class Parrot {
 
     private String name;
     private String breed;
-    private String age;
+    private int age;
     private String color;
 
 
@@ -24,11 +24,11 @@ public class Parrot {
         this.breed = breed;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -40,6 +40,7 @@ public class Parrot {
         this.color = color;
     }
 }
+
 
 
 
